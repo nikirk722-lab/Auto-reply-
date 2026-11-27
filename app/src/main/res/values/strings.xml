@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoReply Jack</string>
+    <string name="intro">সবকিছু তুমি নিজে কাস্টাইজ করো — কোন অ্যাপ, কতক্ষণ, কী রিপ্লে, কখন চালু থাকবে।</string>
+    <string name="enable_all">AutoReply চালু</string>
+    <string name="enable_sms">SMS-এ অটো রিপ্লাই</string>
+    <string name="enable_notif">চ্যাট অ্যাপে অটো রিপ্লাই</string>
+    <string name="reply_label">DEFAULT রিপ্লাই মেসেজ (অ্যাপ-নির্দিষ্ট রিপ্লে থাকলে সেটা চলবে)</string>
+    <string name="delay_label">DEFAULT delay — সেকেন্ডে (যেকোনো মান: ১০ সেকেন্ড থেকে ২৪ ঘণ্টা)</string>
+    <string name="save">Save settings</string>
+    <string name="pick_apps">Select apps — সব ইনস্টল করা অ্যাপ দেখাবে</string>
+    <string name="app_rules">Per-app reply &amp; delay (প্রতি অ্যাপের জন্য আলাদা)</string>
+    <string name="method_label">Reply method (auto = নোটিফিকেশন, নাহলে accessibility)</string>
+    <string name="quiet_enable">Quiet hours — এই সময়ে রিপ্লে দেবে না</string>
+    <string name="quiet_label">শুরু ও শেষ (HH:mm), যেমন 22:00 → 07:00</string>
+    <string name="screen_off">শুধু স্ক্রিন বন্ধ থাকলে রিপ্লে দেবে (তুমি ফোন ব্যবহার করলে চুপ থাকবে)</string>
+    <string name="cooldown_label">একই প্রাপককে আবার রিপ্লে দেওয়ার আগে অপেক্ষা (সেকেন্ড, 0 = সীমা নেই)</string>
+    <string name="only_numbers_enable">শুধু নির্দিষ্ট নম্বরে রিপ্লে দেবে</string>
+    <string name="only_numbers_label">অনুমোদিত নম্বর (এক লাইনে একটা)</string>
+    <string name="ignored_label">এই নম্বরগুলো কখনো রিপ্লে দেবে না</string>
+    <string name="sms_permission">Grant SMS permissions</string>
+    <string name="notif_access">Open Notification access</string>
+    <string name="notif_permission">Grant notification permission (Android 13+)</string>
+    <string name="a11y_permission">Enable Accessibility (works for ALL apps)</string>
+    <string name="battery_button">Battery: allow unrestricted (IMPORTANT)</string>
+    <string name="test_number_label">টেস্ট নম্বর (সাথে সাথে রিপ্লে দেখতে)</string>
+    <string name="test_button">TEST — এখনই রিপ্লাই পাঠাও</string>
+    <string name="refresh_button">Refresh log</string>
+    <string name="smart_rules">Smart rules — keyword দেখে রিপ্লে বদলাও (ADVANCED)</string>
+    <string name="random_delay">Random delay (মানুষের মতো লাগার জন্য)</string>
+    <string name="max_delay_label">Random delay-র সর্বোচ্চ সেকেন্ড</string>
+    <string name="dnd">DND চালু থাকলে রিপ্লে দেবে না</string>
+    <string name="skip_contacts">সেভ করা কন্টাক্টকে রিপ্লে দেবে না</string>
+    <string name="contacts_perm">Grant contacts permission</string>
+    <string name="dry_run">DRY RUN — পরীক্ষা mode (কিছু পাঠাবে না, শুধু log দেখাবে)</string>
+    <string name="notify_on">রিপ্লে গেলে নোটিফিকেশন দেখা</string>
+    <string name="max_per_day">একই প্রাপককে দিনে সর্বোচ্চ রিপ্লে (0 = unlimited)</string>
+    <string name="share_log">Share log / export</string>
+    <string-array name="methods">
+        <item>auto (notification → accessibility)</item>
+        <item>notification only</item>
+        <item>accessibility only</item>
+    </string-array>
+    <string name="a11y_description">AutoReply uses accessibility to type and send the configured reply in chat apps that do not offer a notification Reply button. It only acts on messages configured by you.</string>
+</resources>
